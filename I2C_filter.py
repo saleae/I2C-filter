@@ -57,7 +57,7 @@ class Hla():
             address -= read_write_bit
             self.current_address = address
 
-        if frame['type'] != 'data':
+        if frame['type'] not in ['address', 'data']:
             return None
 
         if self.current_address == self.target_address:
