@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "apiVersion": "1.0.0",
+  "author": "Untitled",
+  "description": "",
+  "name": "I2C Filter",
+  "extensions": {
+    "I2C Filter": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "I2C_filter.Hla"
+    }
+  }
+}
